@@ -20,31 +20,7 @@ void Postcard::presenting( bool state) {
 
 void Postcard::clear() { system( "cls"); }
 
-/*
-void Postcard::clear() {
-    COORD topLeft  = { 0, 0};
-    HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
-    CONSOLE_SCREEN_BUFFER_INFO screen;
-    DWORD written;
-
-    GetConsoleScreenBufferInfo(console, &screen);
-    FillConsoleOutputCharacterA(
-        console, ' ', screen.dwSize.X * screen.dwSize.Y, topLeft, &written
-    );
-    FillConsoleOutputAttribute(
-        console, FOREGROUND_GREEN | FOREGROUND_RED | FOREGROUND_BLUE,
-        screen.dwSize.X * screen.dwSize.Y, topLeft, &written
-    );
-    SetConsoleCursorPosition(console, topLeft);
-} */
-
 void Postcard::show() {
-    /*
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    int colour = rand()%White + Blue;
-    SetConsoleTextAttribute( hConsole, (WORD) ((Black << 4) | colour));
-    cout << "Hello, " << receipment_name << "\n"; */
-
     tree.decorating();
     tree.show();
 
