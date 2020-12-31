@@ -1,4 +1,4 @@
-# HappyNewYear
+# Happy New Year
 
 I wish u in that year:
 - happiness
@@ -6,4 +6,4 @@ I wish u in that year:
 - success
 - and just have a great year
 
-Happy New Year, pal!
+Happy New Year, pal!!!
